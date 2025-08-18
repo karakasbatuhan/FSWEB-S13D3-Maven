@@ -34,7 +34,7 @@ public class Person {
     }
 
     public boolean isTeen(){
-        if(this.age > 13 && this.age < 19){
+        if(this.age >= 13 && this.age < 19){
             return true;
         }
         else{
