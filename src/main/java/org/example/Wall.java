@@ -24,7 +24,7 @@ public class Wall {
         else{
             this.width = 0;
         }
-        return width;
+        return this.width;
     }
 
     public double setHeight(double height){
@@ -34,7 +34,7 @@ public class Wall {
         else{
             this.height = 0;
         }
-        return height;
+        return this.height;
     }
 
     public double getArea(){
